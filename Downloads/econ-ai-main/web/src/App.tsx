@@ -469,7 +469,7 @@ function PublicHome({
           <button type="button" className="btn" onClick={() => { setMenuOpen(false); onOpenRegister(); }}>Criar conta</button>
         </div>
 
-        <p className="leal-credit">Desenvolvido por <span>Leal Systems</span></p>
+        <p className="leal-credit">Desenvolvido por <a href="https://lealsystems.com.br" target="_blank" rel="noopener noreferrer"><span>Leal Systems</span></a></p>
       </aside>
       <button
         type="button"
@@ -1783,7 +1783,7 @@ export function App() {
 
           <button type="button" className="btn secondary sidebar-logout" onClick={() => { setMobileMenuOpen(false); logout(); }}>Sair</button>
 
-          <p className="leal-credit">Desenvolvido por <span>Leal Systems</span></p>
+          <p className="leal-credit">Desenvolvido por <a href="https://lealsystems.com.br" target="_blank" rel="noopener noreferrer"><span>Leal Systems</span></a></p>
         </aside>
         <button
           type="button"
